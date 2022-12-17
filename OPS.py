@@ -1,4 +1,4 @@
-#LEAKED BY : AWAIS TAHIR 
+#LEAKED BY : Haniya Baloch 
 #LIKNG TATA LATEST SC 
 #ENJOY GUYS
 from os import path
@@ -13,7 +13,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python AKING.py')
+        os.system('python HANIYA.py')
 except:pass
         
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
@@ -297,7 +297,7 @@ def menu():
                                 gmail()
                         elif xd in ['6','06']:
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
-                                os.system(f'xdg-open https://www.facebook.com/Shahzadi.Pari786/{wx}');menu()
+                                os.system(f'xdg-open https://www.facebook.com/Shahzadi.Pari786{wx}');menu()
                         elif xd in ['7','07']:
                                 os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/AKING_VPN1.0.apk/file');menu()
                         elif xd in ['8','08']:
